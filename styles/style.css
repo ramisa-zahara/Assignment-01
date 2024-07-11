@@ -245,3 +245,33 @@ nav {
   font-size: 20px;
   border: 1px solid #0d1321;
 }
+.inspiration-title{
+  text-align: center;
+  font-size: 32px;
+  font-weight: bolder;
+}
+.inspiration-description{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+.inspiration-box{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.inspiration-inside-box{
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.inspiration-section{
+  display: flex;
+  flex-direction: column;
+  padding: 80px 97px;
+   margin-inline: 10%;
+}
+.video{
+  border-radius: 16px;
+  text-align: center;
+}
