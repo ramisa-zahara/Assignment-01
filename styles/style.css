@@ -268,10 +268,98 @@ nav {
 .inspiration-section{
   display: flex;
   flex-direction: column;
-  padding: 80px 97px;
+  padding: 80px;
    margin-inline: 10%;
 }
 .video{
   border-radius: 16px;
   text-align: center;
+}
+
+.target-header{
+  text-align: center;
+  font-size: 32px;
+  font-weight: bolder;
+}
+.target-text{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+.target-top{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.target-inside-box{
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.target{
+  display: flex;
+  flex-direction: column;
+  padding: 80px ;
+   margin-inline: 10%;
+}
+.card-container{
+  display: flex;
+  gap: 24px;
+}
+.crd-title{
+  font-size: 24px;
+  font-weight: bolder;
+  gap:8px
+}
+.crd-text{
+  font-size: 16px;
+  font-weight: 600px;
+  gap: 24px;
+}
+.crd-image{
+  width: 56px;
+  gap: 24px;
+}
+.html-card{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  gap:24px;
+
+}
+.card-content{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.top-card{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.css-card{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px;
+  gap:24px;
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+}
+.js-card{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px;
+  gap:24px;
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+}
+.link{
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
 }
